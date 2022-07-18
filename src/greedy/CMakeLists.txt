@@ -1,0 +1,8 @@
+project(greedy)
+
+#add_executable(broken_cal leetcode/broken_calculator.cpp)
+#add_executable(boattosavepeople leetcode/boat_to_save_people.cpp)
+#add_executable(twocityscheduling leetcode/two_city_scheduling.cpp)
+#add_executable(containerwithmostwater leetcode/container_with_most_water.cpp)
+#add_executable(minimum_deletions_to_makes_character_frequencies_unique leetcode/minimum_deletions_to_makes_character_frequencies_unique.cpp)
+add_executable(queue_reconstruction_by_height src/queue_reconstruction_by_height.cpp)

@@ -1,0 +1,8 @@
+project(Contests)
+
+#add_executable(solution leetcode/min_amount_of.cpp)
+#add_executable(solution leetcode/smallest_number_in_set.cpp)
+#add_executable(solution leetcode/move_pieces_to_obtain_a_string.cpp)
+#add_executable(solution1 leetcode/maximum_number_of_pairs_in_array.cpp)
+#add_executable(solution2 leetcode/maximum_sum_of_.cpp)
+add_executable(solution3 src/query_kth_smallest_trimed_number.cpp)

@@ -1,0 +1,14 @@
+.idea/
+cmake-build-debug/
+*.iml
+dist/
+path-planning-python-algo/__pycache__/
+WASM/www/
+*.out
+*.log
+cmake-build-debug-coverage/
+c-things/build/*
+WASM/cpp/build/
+venv/
+asio/
+googletest/

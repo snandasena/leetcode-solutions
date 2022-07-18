@@ -1,0 +1,11 @@
+project(linkedlist)
+
+#add_executable(partitionlist leetcode/partition_list.cpp)
+#add_executable(removeduplicate leetcode/remove_duplicates.cpp)
+#add_executable(sortlist leetcode/sort_list.cpp)
+#add_executable(addnumbers leetcode/add_numbers.cpp)
+#add_executable(rotatelist leetcode/rotate_list.cpp)
+#add_executable(copy_list_with_random_pointer leetcode/copy_list_with_random_pointer.cpp)
+#add_executable(reversell leetcode/reverse_linked_list.cpp leetcode/swapping_nodes_in_a_linkedlist.cpp)
+#add_executable(swappingnodes leetcode/swapping_nodes_in_a_linkedlist.cpp)
+add_executable(intersection_of_two_linkedlist src/intersection_of_two_linkedlist.cpp)

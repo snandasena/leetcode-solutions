@@ -1,0 +1,15 @@
+project(stacknqueues)
+
+#add_executable(scoreofparantheses leetcode/score_of_parantheses.cpp)
+#add_executable(removeduplicateletters leetcode/remove_duplicate_letters.cpp)
+#add_executable(frequencystack leetcode/frequency_stack.cpp)
+#add_executable(laststone leetcode/last_stone_weight.cpp)
+#add_executable(kthlargest leetcode/kth_largest_element.cpp)
+#add_executable(baseballgame leetcode/baseball_game.cpp)
+#add_executable(backspacestring_compare leetcode/backspacestring_compare.cpp)
+#add_executable(stack_using_queue leetcode/stack_using_queue.cpp)
+#add_executable(remove_all_adjacent_duplicates_in_string_ii leetcode/remove_all_adjacent_duplicates_in_string_ii.cpp)
+#add_executable(furthest_building_you_can_reach leetcode/furthest_building_you_can_reach.cpp)
+#add_executable(kth_largest_number_in_an_array leetcode/kth_largest_number_in_an_array.cpp)
+add_executable(construct_target_array_with_multiple_sums src/construct_target_array_with_multiple_sums.cpp)
+
