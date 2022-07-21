@@ -17,3 +17,5 @@ add_subdirectory(bitmanupulations)
 add_subdirectory(math)
 add_subdirectory(practice)
 add_subdirectory(contests)
+add_subdirectory(leetcode75)
+
