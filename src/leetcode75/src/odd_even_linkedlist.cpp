@@ -9,23 +9,29 @@ class Solution
 public:
     ListNode *oddEvenList(ListNode *head)
     {
-        ListNode *odd = new ListNode;
-        ListNode *even = new ListNode;
-
-        if(head->val % 2 == 0)
+        if (head == nullptr)
         {
-            even->next = head;
-            head = head->next;
-            while(head !=nullptr)
-            {
-                
-            }
-
-        }else
-        {
-            odd->next = head;
+            return head;
         }
 
+        if (head->next == nullptr || head->next->next == nullptr)
+        {
+            return head;
+        }
 
+        auto *odd = head;
+        auto *even = head->next;
+        auto *even_final = head->next;
+
+        while (even != nullptr && even->next != nullptr)
+        {
+            odd->next = even->next;
+            even->next = even->next->next;
+            odd = odd->next;
+            even = even->next;
+        }
+
+        odd->next = even_final;
+        return head;
     }
 };
