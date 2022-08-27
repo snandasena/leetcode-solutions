@@ -23,7 +23,7 @@ const unordered_set<string> st = []()
 class Solution
 {
 public:
-    bool reorderedPowerOf2(int n)
+    bool reorderedPowerOf1(int n)
     {
         auto str = to_string(n);
         sort(str.begin(), str.end());
@@ -31,9 +31,21 @@ public:
     }
 };
 
+int func(int c)
+{
+    return !((c - 1) & c);
+}
+
+
 int main()
 {
-    Solution s;
-    cout << boolalpha << s.reorderedPowerOf2(16);
+
+    int x = 1;
+    for (int i = 1; i < 32; ++i)
+    {
+        cout << x << " " << func(x) << endl;
+        x <<= 1;
+    }
+
     return 0;
 }
