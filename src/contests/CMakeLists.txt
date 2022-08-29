@@ -1,5 +1,6 @@
 project(Contests)
 
+
 #add_executable(solution leetcode/min_amount_of.cpp)
 #add_executable(solution leetcode/smallest_number_in_set.cpp)
 #add_executable(solution leetcode/move_pieces_to_obtain_a_string.cpp)
@@ -25,4 +26,11 @@ project(Contests)
 #add_executable(solution20 src/infections.cpp)
 #add_executable(solution21 src/longest_sub_Arr.cpp)
 #add_executable(solution22 src/username_chantes.cpp)
-add_executable(solution23 src/task_of_pairing.cpp)
+
+#set(SRC src/task_of_pairing.cpp)
+#set(SRC src/remove_star.cpp)
+#set(SRC src/longest_subseq_sum.cpp)
+set(SRC src/min_amount_of_time.cpp)
+
+
+add_executable(sol2 ${SRC})
