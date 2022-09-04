@@ -30,7 +30,11 @@ project(Contests)
 #set(SRC src/task_of_pairing.cpp)
 #set(SRC src/remove_star.cpp)
 #set(SRC src/longest_subseq_sum.cpp)
-set(SRC src/min_amount_of_time.cpp)
+#set(SRC src/min_amount_of_time.cpp)
+#
+#
+#add_executable(sol2 ${SRC})
 
-
-add_executable(sol2 ${SRC})
+add_executable(sol12 src/weekly3089/1.cpp)
+add_executable(sol22 src/weekly3089/2.cpp)
+add_executable(sol32 src/weekly3089/3.cpp)
