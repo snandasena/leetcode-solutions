@@ -2,16 +2,13 @@
 // Created by sajith on 9/4/22.
 //
 
-#include "task_scheduler.h"
+
+#include "n_ary_tree_level_order_travelsal.h"
 
 int main()
 {
 
-    Solution sol;
-    vector<char> v{'A', 'A', 'A', 'B', 'B', 'B'};
-    int n = 2;
 
-    LOG(sol.leastInterval(v, n))<<END;
 
     return 0;
 }
