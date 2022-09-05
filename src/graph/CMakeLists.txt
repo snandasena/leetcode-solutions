@@ -1,5 +1,12 @@
 project(graphs)
 
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(CMAKE_CXX_FLAGS " -std=c++17 -fsanitize=address -ggdb3 -Wall -Wextra")
+
+set(CXX_FLAGS " -std=c++17 -fsanitize=address -ggdb3 -Wall -Wextra")
+
 #add_executable(clonegraph leetcode/clone_graph.cpp)
 #add_executable(shortedpath_visiting_allnodes leetcode/shortest_path_visiting_all_nodes.cpp)
 #add_executable(critical_connections_in_a_network src/critical_connections_in_a_network.cpp)
