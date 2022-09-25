@@ -34,7 +34,10 @@ project(Contests)
 #
 #
 #add_executable(sol2 ${SRC})
-
-add_executable(sol12 src/weekly3089/1.cpp)
-add_executable(sol22 src/weekly3089/2.cpp)
-add_executable(sol32 src/weekly3089/3.cpp)
+#
+#add_executable(sol12 src/weekly3089/1.cpp)
+#add_executable(sol22 src/weekly3089/2.cpp)
+#add_executable(sol32 src/weekly3089/3.cpp)
+#add_executable(sort_the_people src/sort_the_people.cpp)
+add_executable(longest_subarr src/longest_subarr.cpp)
+add_executable(findall src/find_all_good_indeces.cpp)
