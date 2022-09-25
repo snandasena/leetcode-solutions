@@ -10,26 +10,53 @@ class Solution
 public:
     vector<int> goodIndices(vector<int> &nums, int k)
     {
-        vector<int> ans;
-        for (int i = k; i < nums.size() - k; ++i)
+        auto N = nums.size();
+        vector<bool> increasing(N, false);
+        vector<bool> decreasing(N, false);
+        int cnt = 1;
+        increasing[0] = true;
+        for (int i = 1; i < N; ++i)
         {
+            if (cnt >= k)
+            {
+                decreasing[i] = true;
+            }
+            if (nums[i] <= nums[i - 1])
+            {
+                ++cnt;
+            }
+            else
+            {
+                cnt = 1;
+            }
+        }
 
-            auto itr1 = nums.begin() + k - i;
-            auto itr2 = nums.begin() + i;
+        cnt = 1;
+        increasing[N - 1] = true;
+        for (int i = N - 2; i >= 0; --i)
+        {
+            if (cnt >= k)
+            {
+                increasing[i] = true;
+            }
+            if (nums[i] <= nums[i + 1])
+            {
+                ++cnt;
+            }
+            else
+            {
+                cnt = 1;
+            }
+        }
 
-            auto b1 = is_sorted(itr1, itr2, less<>());
-
-            auto itr3 = nums.begin() + i + 1;
-            auto itr4 = nums.begin() + i + k;
-            auto b2 = is_sorted(itr3, itr4, greater<>());
-
-            if (b1 && b2)
+        vector<int> ans;
+        for (int i = k; i < N - k; ++i)
+        {
+            if (decreasing[i] && increasing[i])
             {
                 ans.push_back(i);
             }
-
         }
-
         return ans;
     }
 };
@@ -39,9 +66,10 @@ int main()
 
     Solution solution;
     vector<int> v{2, 1, 1, 1, 3, 4, 1};
-    for (const auto &item: solution.goodIndices(v, 2))
+//    solution.goodIndices(v, 2);
+    for (auto &ele: solution.goodIndices(v, 2))
     {
-        cout << item << '\t';
+        cout << ele << '\t';
     }
 
 
