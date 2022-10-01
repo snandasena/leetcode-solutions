@@ -18,6 +18,7 @@ add_subdirectory(math)
 add_subdirectory(practice)
 add_subdirectory(contests)
 add_subdirectory(leetcode75)
+add_subdirectory(recursions)
 
 
 add_executable(app main.cpp)
