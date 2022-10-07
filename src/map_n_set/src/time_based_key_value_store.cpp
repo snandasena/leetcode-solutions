@@ -4,9 +4,10 @@
 
 #include "base.h"
 
+
 class TimeMap
 {
-    unordered_map<string, unordered_map<int, string>> mp;
+    unordered_map<string, map<int, string>> mp;
 public:
     TimeMap()
     {
