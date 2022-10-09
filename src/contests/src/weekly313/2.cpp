@@ -2,7 +2,7 @@
 // Created by sajith on 10/2/22.
 //
 
-#include "base.h"
+#include "../base.h"
 
 class Solution
 {
