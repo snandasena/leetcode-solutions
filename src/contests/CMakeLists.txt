@@ -50,3 +50,5 @@ project(Contests)
 #add_executable(3 src/weekly313/3.cpp)
 add_executable(1 src/weekly314/1.cpp)
 add_executable(2 src/weekly314/2.cpp)
+
+add_executable(largest_positive_integer_that_exits_with_its_negative src/largest_positive_integer_that_exits_with_its_negative.cpp)
