@@ -29,4 +29,8 @@ project(strings)
 #add_executable(check_if_the_sentence_is_pangram src/check_if_the_sentence_is_pangram.cpp)
 #add_executable(count_and_say src/count_and_say.cpp)
 #add_executable(integer_to_roman src/integer_to_roman.cpp)
-add_executable(minimum_window_substring src/minimum_window_substring.cpp)
+#add_executable(minimum_window_substring src/minimum_window_substring.cpp)
+#add_executable(maxmum_length_of_concatenated_strings_with_unique_chars minimum_window_substring
+#        src/maxmum_length_of_concatenated_strings_with_unique_chars.cpp)
+
+add_executable(check_if_two_strings_arrays_are_equivalent src/check_if_two_strings_arrays_are_equivalent.cpp)
