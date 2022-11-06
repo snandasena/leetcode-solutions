@@ -35,4 +35,5 @@ project(strings)
 
 #add_executable(check_if_two_strings_arrays_are_equivalent src/check_if_two_strings_arrays_are_equivalent.cpp)
 #add_executable(group_anagrams src/group_anagrams.cpp)
-add_executable(longest_palindrome_by_concatenating_two_letter_words src/longest_palindrome_by_concatenating_two_letter_words.cpp)
+#add_executable(longest_palindrome_by_concatenating_two_letter_words src/longest_palindrome_by_concatenating_two_letter_words.cpp)
+add_executable(orderly_queue src/orderly_queue.cpp)
