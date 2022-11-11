@@ -12,5 +12,7 @@ project(stacknqueues)
 #add_executable(furthest_building_you_can_reach leetcode/furthest_building_you_can_reach.cpp)
 #add_executable(kth_largest_number_in_an_array leetcode/kth_largest_number_in_an_array.cpp)
 #add_executable(construct_target_array_with_multiple_sums src/construct_target_array_with_multiple_sums.cpp)
-add_executable(design_circular_queue src/design_circular_queue.cpp)
+#add_executable(design_circular_queue src/design_circular_queue.cpp)
+#add_executable(make_the_string_great src/make_the_string_great.cpp)
+add_executable(online_stock_span src/online_stock_span.cpp)
 
