@@ -14,5 +14,6 @@ project(stacknqueues)
 #add_executable(construct_target_array_with_multiple_sums src/construct_target_array_with_multiple_sums.cpp)
 #add_executable(design_circular_queue src/design_circular_queue.cpp)
 #add_executable(make_the_string_great src/make_the_string_great.cpp)
-add_executable(online_stock_span src/online_stock_span.cpp)
+#add_executable(online_stock_span src/online_stock_span.cpp)
+add_executable(find_median_from_data_stream src/find_median_from_data_stream.cpp)
 
