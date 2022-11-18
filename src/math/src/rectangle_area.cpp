@@ -14,6 +14,7 @@ public:
         int xinterection = min(ax2, bx2) - max(ax1, bx1);
         int yintersection = min(ay2, by2) - max(ay1, by1);
         int intersection = 0;
+
         if (xinterection > 0 && yintersection > 0)
         {
             intersection = xinterection * yintersection;
