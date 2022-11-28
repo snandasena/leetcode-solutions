@@ -2,12 +2,12 @@
 // Created by sajith on 11/26/22.
 //
 
-#inlcude"base.h"
+#include "base.h"
 
 
 class Solution
 {
-    int bs(vector <vector<int>> &v, int a, int i)
+    int bs(vector<vector<int>> &v, int a, int i)
     {
         int lo = 0, hi = v.size() - 1;
         int ans = v.size();
@@ -24,7 +24,7 @@ class Solution
         }
         return ans;
     }
-    int solve(vector <vector<int>> &v, vector<int> &dp, int i)
+    int solve(vector<vector<int>> &v, vector<int> &dp, int i)
     {
         // cout<<i<<endl;
         if (i == v.size())
@@ -39,7 +39,7 @@ class Solution
 public:
     int jobScheduling(vector<int> &startTime, vector<int> &endTime, vector<int> &profit)
     {
-        vector <vector<int>> v;
+        vector<vector<int>> v;
         int n = profit.size();
         vector<int> dp(n, -1);
         for (int i = 0; i < n; i++)
