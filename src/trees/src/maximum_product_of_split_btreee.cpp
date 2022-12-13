@@ -7,7 +7,6 @@ public:
     long long totalTreeSum=0,result=0;
     void getTotalTreeSum(TreeNode* root)    //Get total sum of the tree.
     {
-
         if(!root)
             return;
         totalTreeSum+=root->val;
