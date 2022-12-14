@@ -17,6 +17,7 @@ public:
     {
         if(!root)
             return 0;
+
         int sumUnderLeft=SumUnder(root->left),sumUnderRight=SumUnder(root->right); //Get the sum of left and right subtree under node 'root'
         result=max({result,(totalTreeSum-sumUnderLeft)*sumUnderLeft,(totalTreeSum-sumUnderRight)*sumUnderRight});    //Get the max product after making left or right subtrees as seprarate tree.
         return sumUnderLeft+sumUnderRight+root->val;
