@@ -20,6 +20,7 @@ add_subdirectory(contests)
 add_subdirectory(leetcode75)
 add_subdirectory(recursions)
 add_subdirectory(memorization)
+add_subdirectory(2023)
 
 
 add_executable(app main.cpp)
