@@ -1,3 +1,4 @@
 project(graph_2023)
 
-add_executable(clonegprahp src/clone_graph.cpp)
+#add_executable(clonegprahp src/clone_graph.cpp)
+add_executable(remove_max_number_of_edges_to_keep_graph_traversable src/remove_max_number_of_edges_to_keep_graph_traversable.cpp)
