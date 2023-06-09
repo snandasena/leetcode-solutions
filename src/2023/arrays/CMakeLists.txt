@@ -1,7 +1,8 @@
 project(arrays)
 
 #add_executable(kidswithgreatest src/kids_with_greatest_number_of_candies.cpp)
-add_executable(last_stone_weight src/last_stone_weight.cpp)
-add_executable(find_the_difference_of_two_arrays src/find_the_difference_of_two_arrays.cpp)
-add_executable(design_parking_system src/design_parking_system.cpp)
-add_executable(count_negative_numbers src/count_negative_numbers_in_a_sorted_array.cpp)
+#add_executable(last_stone_weight src/last_stone_weight.cpp)
+#add_executable(find_the_difference_of_two_arrays src/find_the_difference_of_two_arrays.cpp)
+#add_executable(design_parking_system src/design_parking_system.cpp)
+#add_executable(count_negative_numbers src/count_negative_numbers_in_a_sorted_array.cpp)
+add_executable(find_smallest_letter src/find_smallest_letter_greater_than_target.cpp)
