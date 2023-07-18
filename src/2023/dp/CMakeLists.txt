@@ -1,3 +1,4 @@
 project(dp)
 
-add_executable(numberofways src/number_of_ways_to_form_a_target_given_a_dictionary.cpp)
+#add_executable(numberofways src/number_of_ways_to_form_a_target_given_a_dictionary.cpp)
+add_executable(maximum_number_of_events_that_can_be_attend_ii src/maximum_number_of_events_that_can_be_attend_ii.cpp)
