@@ -1,5 +1,6 @@
 project(graph_2023)
 
 #add_executable(clonegprahp src/clone_graph.cpp)
-add_executable(remove_max_number_of_edges_to_keep_graph_traversable src/remove_max_number_of_edges_to_keep_graph_traversable.cpp)
-add_executable(all_possible_full_binary_trees src/all_possible_full_binary_trees.cpp)
+#add_executable(remove_max_number_of_edges_to_keep_graph_traversable src/remove_max_number_of_edges_to_keep_graph_traversable.cpp)
+#add_executable(all_possible_full_binary_trees src/all_possible_full_binary_trees.cpp)
+add_executable(partition_list src/partition_list.cpp)
