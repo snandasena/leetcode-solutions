@@ -1,3 +1,7 @@
+set(CMAKE_C_COMPILER_WORKS 1)
+
+# Enable Hot Reload for MSVC compilers if supported.
+
 project(math)
 
 #add_executable(devidetwoints src/devide_two_ints.cpp)
@@ -7,4 +11,5 @@ project(math)
 #add_executable(count_days_spend_together src/count_days_spend_together.cpp)
 #add_executable(maximum_69_number src/maximum_69_number.cpp)
 #add_executable(guess_the_number src/guess_the_number.cpp)
-add_executable(erect_the_fence src/erect_the_fence.cpp)
+#dd_executable(erect_the_fence src/erect_the_fence.cpp)
+add_executable(maximum_odd_binary_number src/maximum_odd_binary_number.cpp)
