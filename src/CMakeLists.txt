@@ -1,4 +1,3 @@
-project(SRC)
 
 set(CMAKE_C_COMPILER_WORKS 1)
 
@@ -7,6 +6,10 @@ if (POLICY CMP0141)
   cmake_policy(SET CMP0141 NEW)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
+
+project(SRC)
+
+
 
 #add_subdirectory(14days-cracking)
 #add_subdirectory(linkedlist)
@@ -22,7 +25,7 @@ endif()
 #add_subdirectory(disjoint_set)
 #add_subdirectory(matrix)
 #add_subdirectory(bitmanupulations)
-#add_subdirectory(math)
+add_subdirectory(math)
 #add_subdirectory(practice)
 #add_subdirectory(contests)
 #add_subdirectory(leetcode75)
@@ -31,4 +34,4 @@ endif()
 #add_subdirectory(2023)
 
 
-add_executable(app main.cpp)
+#add_executable(app main.cpp "math/src/maximum_odd_binary_number.cpp")
