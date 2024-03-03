@@ -12,7 +12,7 @@ project(SRC)
 
 
 #add_subdirectory(14days-cracking)
-#add_subdirectory(linkedlist)
+add_subdirectory(linkedlist)
 #add_subdirectory(backtracking)
 add_subdirectory(arrays)
 #add_subdirectory(strings)
