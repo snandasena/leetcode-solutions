@@ -11,23 +11,16 @@ class Solution
 public:
     int pivotInteger(int n)
     {
-        if(n == 1)
+        if (n == 1)
             return 1;
 
-        vector<int> v;
-        v.push_back(0);
-        for (int i = 1; i <= n; ++i)
-        {
-            auto sum = (i) *(i+1)/2;
-            v.push_back(sum);
-        }
-
+        auto total = n * (n + 1) / 2;
         for (int x = 1; x < n; ++x)
         {
-            auto left = v[x];
-            auto right = v.back() - v[x];
+            auto left = x * (x + 1) / 2;
+            auto right = total - left;
 
-            if (left == right+x)
+            if (left == right + x)
             {
                 return x;
             }
