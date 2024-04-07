@@ -1,5 +1,9 @@
 project(stacknqueues)
 
+set(CMAKE_CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
+
+set(CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
+
 #add_executable(scoreofparantheses leetcode/score_of_parantheses.cpp)
 #add_executable(removeduplicateletters leetcode/remove_duplicate_letters.cpp)
 #add_executable(frequencystack leetcode/frequency_stack.cpp)
@@ -15,5 +19,6 @@ project(stacknqueues)
 #add_executable(design_circular_queue src/design_circular_queue.cpp)
 #add_executable(make_the_string_great src/make_the_string_great.cpp)
 #add_executable(online_stock_span src/online_stock_span.cpp)
-add_executable(find_median_from_data_stream src/find_median_from_data_stream.cpp)
+#add_executable(find_median_from_data_stream src/find_median_from_data_stream.cpp)
+add_executable(valid_parenthesis_string src/valid_parenthesis_string.cpp)
 
