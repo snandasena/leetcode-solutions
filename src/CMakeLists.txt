@@ -1,25 +1,18 @@
 
-set(CMAKE_C_COMPILER_WORKS 1)
-
-# Enable Hot Reload for MSVC compilers if supported.
-if (POLICY CMP0141)
-  cmake_policy(SET CMP0141 NEW)
-  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
-endif()
-
 project(SRC)
 
+set(CMAKE_CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
 
 
 #add_subdirectory(14days-cracking)
 #add_subdirectory(linkedlist)
 #add_subdirectory(backtracking)
 #add_subdirectory(arrays)
-#add_subdirectory(strings)
+add_subdirectory(strings)
 #add_subdirectory(graph)
 #add_subdirectory(trees)
 #add_subdirectory(dp)
-add_subdirectory(stacks_queues)
+#add_subdirectory(stacks_queues)
 #add_subdirectory(greedy)
 #add_subdirectory(map_n_set)
 #add_subdirectory(disjoint_set)
