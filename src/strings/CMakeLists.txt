@@ -1,5 +1,8 @@
 project(strings)
 
+set(CMAKE_CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
+
+
 #add_executable(decodway leetcode/decode_ways.cpp)
 #add_executable(compareversions leetcode/compare_version_numbers.cpp)
 #add_executable(issubsequence leetcode/is_subsequence.cpp)
@@ -40,4 +43,5 @@ project(strings)
 #add_executable(remove_all_adjacent_duplicates src/remove_all_adjacent_duplicates.cpp)
 #add_executable(determine_if_string_halves_are_alike src/determine_if_string_halves_are_alike.cpp)
 #add_executable(word_pattern src/word_pattern.cpp)
-add_executable(lexicographically_smallest_equilent_string src/lexicographically_smallest_equilent_string.cpp)
+#add_executable(lexicographically_smallest_equilent_string src/lexicographically_smallest_equilent_string.cpp)
+add_executable(reverse_prefix_of_word src/reverse_prepfix_of_word.cpp)
