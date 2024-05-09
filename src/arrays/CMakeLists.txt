@@ -1,6 +1,6 @@
 project(arrays)
 
-set(CMAKE_CXX_FLAGS " -std=c++17 -fsanitize=address -ggdb3 -Wall -Wextra")
+set(CMAKE_CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
 
 #add_executable(textjust leetcode/text_justifications.cpp)
 #add_executable(removeintervals leetcode/remove_intervals.cpp)
@@ -61,4 +61,5 @@ set(CMAKE_CXX_FLAGS " -std=c++17 -fsanitize=address -ggdb3 -Wall -Wextra")
 #add_executable(squares_of_a_sorted_array src/squares_of_a_sorted_array.cpp)
 #add_executable(bag_of_tokens src/bag_of_tokens.cpp)
 #add_executable(product_of_array_except_self src/product_of_array_except_self.cpp)
-add_executable(subarrays_with_k_different_integers src/subarrays_with_k_different_integers.cpp)
+#add_executable(subarrays_with_k_different_integers src/subarrays_with_k_different_integers.cpp)
+add_executable(maximize_happiness_of_selected_children src/maximize_happinies_of_selected_children.cpp)
