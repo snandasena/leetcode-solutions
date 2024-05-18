@@ -33,4 +33,7 @@ project(trees)
 #add_executable(path_sums src/path_sums1.cpp)
 #add_executable(add_one_row_to_tree src/add_one_row_to_tree.cpp)
 #add_executable(two_sum_iv_input_is_bst src/two_sum_iv_input_is_bst.cpp)
-add_executable(count_complete_tree_nodes src/count_complete_tree_nodes.cpp)
+#add_executable(count_complete_tree_nodes src/count_complete_tree_nodes.cpp)
+#add_executable(delete_leaves_with_a_given_value src/delete_leaves_with_a_given_value.cpp)
+add_executable(distribute_coins_in_binary_tree src/distribute_coins_in_binary_tree.cpp)
+
