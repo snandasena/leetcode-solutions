@@ -20,5 +20,6 @@ set(CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
 #add_executable(make_the_string_great src/make_the_string_great.cpp)
 #add_executable(online_stock_span src/online_stock_span.cpp)
 #add_executable(find_median_from_data_stream src/find_median_from_data_stream.cpp)
-add_executable(valid_parenthesis_string src/valid_parenthesis_string.cpp)
+#add_executable(valid_parenthesis_string src/valid_parenthesis_string.cpp)
+add_executable(minimum_deletions_to_make_string_balanced src/minimum_deletions_to_make_string_balanced.cpp)
 
