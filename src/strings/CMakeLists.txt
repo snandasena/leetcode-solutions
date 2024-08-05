@@ -44,5 +44,5 @@ set(CMAKE_CXX_FLAGS " -std=c++20 -fsanitize=address -ggdb3 -Wall -Wextra")
 #add_executable(determine_if_string_halves_are_alike src/determine_if_string_halves_are_alike.cpp)
 #add_executable(word_pattern src/word_pattern.cpp)
 #add_executable(lexicographically_smallest_equilent_string src/lexicographically_smallest_equilent_string.cpp)
-add_executable(reverse_prefix_of_word src/reverse_prepfix_of_word.cpp
-        ../linkedlist/src/delete_node_on_a_linkedlist.cpp)
+#add_executable(reverse_prefix_of_word src/reverse_prepfix_of_word.cpp delete_node_on_a_linkedlist.cpp)
+add_executable(kth_distinct_string_in_an_array src/kth_distinct_string_in_an_array.cpp)
